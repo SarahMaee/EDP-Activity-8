@@ -46,7 +46,7 @@ namespace CsharpApi
                 pass = txtPassword.Text,
                 email = txtEmail.Text,
                 name = txtname.Text,
-                bday = date.Value.ToString("yyyy-MM-dd"), // Assuming dtpBday is a DateTimePicker
+                bday = date.Value.ToString("yyyy-MM-dd"), // DateTimePicker
                 contact = txtcon.Text
             };
             string json = JsonConvert.SerializeObject(userData);
